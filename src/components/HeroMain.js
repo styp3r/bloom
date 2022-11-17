@@ -1,6 +1,6 @@
 import ArticlesCarousel from './ArticlesCarousel'
 import Trending from './Trending';
-import TrendingArticles from './TrendingArticles';
+import TopArticles from './TopArticles';
 
 export default function HeroMain() {
     return (
@@ -11,7 +11,7 @@ export default function HeroMain() {
             </div>
 
             <div className="articles">
-                <TrendingArticles />
+                <TopArticles />
             </div>
         </div>
     );
