@@ -74,7 +74,7 @@ ul{
 #carouselContainer{
   width: 70%;
   height: 25rem;
-  background-color: blue;
+  display: flex;
 }
 
 #trending{
@@ -120,4 +120,46 @@ ul{
   margin: 0.2rem 0 0 0;
   background-color: #f3f3f3;
   text-align: left;
+}
+
+.main-carousel-container{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-carousel{
+  width: 95%;
+  height: 95%;
+  border-radius: 1rem;
+  background-color: #f3f3f3;
+}
+
+.sub-carousels{
+  width: 50%;
+  height: 100%;
+  display: flex;
+}
+
+.sub-carousel-1, .sub-carousel-2{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-carousel-content1, .sub-carousel-content2, .sub-carousel-content3, .sub-carousel-content4{
+  width: 95%;
+  height: 45%;
+  border-radius: 1rem;
+  background-color: #f3f3f3;
+  margin: 0.5rem;
+}
+
+.sub-carousel-content3, .sub-carousel-content4{
+  margin: 0.5rem 0.5rem 0.5rem 1rem;
 }
